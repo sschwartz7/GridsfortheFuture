@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.bgimage {
+    background-image: url(/img/GridBG.png);
+    background-size: cover; /*size of page*/
+    background-position: center; /*center of page*/
+    background-repeat: no-repeat; /*doesn't repeat if page is too large*/  
+}
+
+.bgimage main {/*will only target things in the .bgimage class*/
+    backdrop-filter: brightness(0.6);
+}
+
+.titleText {
+    font-family: 'Londrina Shadow', sans-serif;
+    color:chartreuse; /*rgb(195,255,0)*/
+    text-transform: uppercase;
+    font-weight:400;
+}
+
+.minHeight {
+    min-height: 85vh;
+}
