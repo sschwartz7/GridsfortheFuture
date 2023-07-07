@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,16 +61,55 @@
             </div>
         </nav>
     </header>
+
     <!-- content of page -->
-    <main>
+    <main class="container py-3">
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="grid3.html">Grid Three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="grid3b.html">Grid Three B</a>
+        </ul>
+        <div class="row text-light minHeight">
+            <div class="col-7">
+                <article class="bg-secondary h-100 p-3">sjomeht </article>
+            </div>
+            <div class="col p-2">
+                <div class="row row-cols-1 g-3">
+                    <div class="col bg-secondary">
+                        <form action="#" class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                                class="form-control">
+                            <button class="btn btn-outline-light ms-2" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="col text-light bg-dark">
+                        <article class="bg-secondar">More Articles</article>
+                        <ul class="list-unstyled ms-1">
+                            <li class="py-2">
+                                <a href="#" class="text-decoration-none">Article 1</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="#" class="text-decoration-none">Article 1</a>
+                            </li>
+                            <li class="py-2">
+                                <a href="#" class="text-decoration-none">Article 1</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
 
     </main>
     <!-- footer on bottom of each page -->
-    <footer class="bg-dark mt-5 text-secondary text-center py-3">
+    <footer class="bg-dark text-secondary text-center py-3">
         Bootstrap & the Grids
     </footer>
 
-    
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

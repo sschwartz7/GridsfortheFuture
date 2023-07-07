@@ -63,33 +63,38 @@
     </header>
 
     <!-- content of page -->
-    <main class="container">
-
-        <div class="row text-light m-3 minHeight">
-
-            <div class="col-4">
-                <article class="bg-secondary h-100 p-2">
-                    Side Bar
-                </article>
+    <main class="container py-3">
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="grid3.html">Grid Three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="grid3b.html">Grid Three B</a>
+        </ul>
+        <div class="row text-light minHeight">
+            <div class="col-7">
+                <article class="bg-secondary h-100 p-3"></article>
             </div>
+            <div class="col p-2">
+                <div class="row row-cols-1 h-100 g-3">
+                    <div class="col">
+                        <article class="bg-secondary p-3 h-100 mb-3">Col left</article>
+                    </div>
+                    <div class="col">
+                        <article class="bg-secondary p-3 h-100">More Articles</article>
+                        <ul>
+                            <li>Article 1</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="col-8">
-                <article class="bg-dark h-100 p-2">
-                    Main
-                </article>
             </div>
-
-            <div>
-                <article>
-                    
-                </article>
-            </div>
-
-        </div>
 
     </main>
     <!-- footer on bottom of each page -->
-    <footer class="bg-dark mt-5 text-secondary text-center py-3">
+    <footer class="bg-dark text-secondary text-center py-3">
         Bootstrap & the Grids
     </footer>
 
